@@ -1,0 +1,4 @@
+1、
+问题：warning：LF will be replaced by CRLF in...
+解决方案：git config --global core.autocrlf false
+
