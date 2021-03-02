@@ -1,0 +1,6 @@
+1、下载Git
+2、右键Git Bash Here
+3、ssh-keygen -t rsa -C "xxx(邮箱)"
+4、一直回车确认
+5、找到密钥地址：/c/Users/Administrator/.ssh/id_rsa
+6、将id_rsa.pub文件中的内容输入到Github-Settings-SSH and GPG keys中的Key内容框中
