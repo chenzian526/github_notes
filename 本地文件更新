@@ -1,17 +1,7 @@
-1、确认已连接github：ssh -T git@github.com
+1、本地初始化仓库：git init      
 
-2、上传者信息配置：
-   git config --global user.name "xxx(用户名)"
-   git config --global user.email "xxx(邮箱)"
-   
-3、本地初始化仓库：git init      
+2、与github仓库建立连接：git remote add origin xxx(仓库SSH地址)
 
-4、添加文件：git add .
+3、github项目文件获取：git pull --rebase origin master
 
-5、上传文件说明：git commit -m "xxx(说明内容)"
-
-6、与github仓库建立连接：git remote add origin xxx(仓库SSH地址)
-
-7、github项目文件获取：git pull --rebase origin master
-
-8、本地更新后的文件上传：git push -u origin master
+4、本地更新后的文件上传：git push -u origin master
