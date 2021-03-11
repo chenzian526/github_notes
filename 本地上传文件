@@ -13,5 +13,3 @@
 6、与github仓库建立连接：git remote add origin xxx(仓库SSH地址)
 
 7、文件上传：git push -u origin master
-
-8、在github对应项目中查看master分支中的文件
